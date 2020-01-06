@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/samfolo/notes-app/issues"
   },
-  "homepage": "https://github.com/samfolo/notes-app#readme"
+  "homepage": "https://github.com/samfolo/notes-app#readme",
+  "dependencies": {
+  "http-server": "^0.12.0"
+  }
 }
