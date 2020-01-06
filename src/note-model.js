@@ -13,11 +13,11 @@ var assert = {
 class Note {
   constructor() {
   }
-  write(input) {
-    this.input = input;
+  write(text) {
+    this.text = text;
   }
   read() {
-    return this.input;
+    return this.text;
   }
 }
 
