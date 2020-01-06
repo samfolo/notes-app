@@ -1,5 +1,5 @@
 'use strict';
-
+// import { assert } from '../testers/utility'
 var assert = {
   isTrue: function(expect, actual) {
     if(expect === actual) {
@@ -11,7 +11,8 @@ var assert = {
 }
 
 class Note {
-  constructor() {
+  constructor(text = null) {
+    this.text = text;
   }
   write(text) {
     this.text = text;
