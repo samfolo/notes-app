@@ -1,14 +1,14 @@
 'use strict';
-// import { assert } from '../testers/utility'
-var assert = {
-  isTrue: function(expect, actual) {
-    if(expect === actual) {
-      console.log(":)");
-    }else{
-      console.log(":(");
-    }
-  }
-}
+
+// var assert = {
+//   isTrue: function(expect, actual) {
+//     if(expect === actual) {
+//       console.log(":)");
+//     }else{
+//       console.log(":(");
+//     }
+//   }
+// }
 
 class Note {
   constructor(text = null) {
